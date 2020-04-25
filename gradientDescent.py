@@ -1,5 +1,4 @@
 import pandas as pd
-
 inputFile = "Advertising.csv"
 df = pd.read_csv(inputFile)
 x = df['radio'].tolist()
